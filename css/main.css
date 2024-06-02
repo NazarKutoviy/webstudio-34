@@ -259,8 +259,15 @@ input {
 @media screen and (min-width: 320px) {
   .screen-saver {
     padding-bottom: 60px;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../img/laptop-1x.jpg");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../img/laptop-1x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../img/mobile-1x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../img/mobile-1x.jpg");
+  }
+}
+@media screen and (min-width: 768px) {
+  .screen-saver {
+    padding-bottom: 60px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../img/tablet-1x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../img/tablet-1x.jpg");
   }
 }
 .screen-saver__title {
@@ -786,6 +793,7 @@ input {
 @media screen and (max-width: 767px) {
   .our-team__img {
     min-width: 290px;
+    min-height: 300px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {

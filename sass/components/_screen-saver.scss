@@ -24,7 +24,18 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../../img/laptop-1x.jpg");
+    url("../../img/mobile-1x.jpg");
+  }
+}
+@media screen and (min-width: 768px) {
+  .screen-saver {
+    padding-bottom: 60px;
+    background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../../img/tablet-1x.jpg");
   }
 }
 .screen-saver__title {
