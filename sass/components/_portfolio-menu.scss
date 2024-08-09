@@ -6,6 +6,12 @@
     align-items: center;
     margin-bottom: 34px;
   }
+  @media screen and (max-width: 767px) {
+    .portfolio-list-menu {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+  }
   .portfolio-item-menu {
     display: flex;
     justify-content: center;
